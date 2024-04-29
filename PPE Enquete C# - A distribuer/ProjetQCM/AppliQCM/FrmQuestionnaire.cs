@@ -141,8 +141,14 @@ namespace AppliQCM
                     //		d) L'objet premier noeud du document XML (<questionnaire>)
                     switch (unNoeud.Attributes["type"].Value)
                     {
+                        case "combo":
+                            emplacement = AddComboBox(unNoeud, lesControles, emplacement, premierNoeud);
+                            break;
                         case "text":
                             emplacement = AddTextBox(unNoeud, lesControles, emplacement, premierNoeud);
+                            break;
+                        case "liste":
+                            emplacement = AddListBox(unNoeud, lesControles, emplacement, premierNoeud);
                             break;
 
                     }
@@ -177,6 +183,124 @@ namespace AppliQCM
         //	c) L'emplacement (coordonnées X et Y) en cours (permet de placer les nouveaux contrôles)
         //	d) L'objet premier noeud du document XML (<questionnaire>)
         //------------------------------------------------------------------------------------------
+        private Point AddComboBox(XmlNode unNoeud, Control.ControlCollection desControles, Point unEmplacement, string tag)
+        {
+            // Création d'un contrôle ComboBox.
+            ComboBox maComboBox = new ComboBox();
+
+            // Valeur de l'attribut "name" de la balise <question> en cours
+            if (unNoeud.Attributes["name"] != null)
+                maComboBox.Name = unNoeud.Attributes["name"].Value;
+
+            maComboBox.Tag = tag;
+            maComboBox.Width = LARGEUR_CONTROLES;
+
+            // Il y a-t-il un nombre maximal de caractères ? 
+            if (unNoeud.SelectSingleNode("maxCharacters") != null)
+                maComboBox.MaxLength = int.Parse(unNoeud.SelectSingleNode("maxCharacters").InnerText);
+
+            // Création d'une collection ordonnée de noeuds <reponse>
+            XmlNodeList lesReponses;
+            lesReponses = unNoeud.SelectNodes("reponses/reponse");
+            foreach (XmlNode uneReponse in lesReponses)
+            {
+                if (uneReponse != null)
+                {
+                    // Ajouter chaque réponse à la ComboBox
+                    maComboBox.Items.Add(uneReponse.InnerText);
+                }
+            }
+
+            // Il y a-t-il une réponse par défaut ? 
+            XmlNode defaultReponseNode = unNoeud.SelectSingleNode("reponses/reponse[@default='true']");
+            if (defaultReponseNode != null)
+            {
+                // Trouver l'index de la réponse par défaut
+                int defaultIndex = maComboBox.Items.IndexOf(defaultReponseNode.InnerText);
+                if (defaultIndex != -1)
+                {
+                    // Sélectionner l'élément par défaut
+                    maComboBox.SelectedIndex = defaultIndex;
+                }
+            }
+
+            // Création d'un Label
+            Label monLabel = new Label();
+            monLabel.Name = maComboBox.Name + "Label";
+            if (unNoeud.SelectSingleNode("text") != null)
+                monLabel.Text = unNoeud.SelectSingleNode("text").InnerText;
+
+            monLabel.Width = LARGEUR_CONTROLES;
+
+            // Ajout à la collection
+            monLabel.Location = unEmplacement;
+            desControles.Add(monLabel);
+            unEmplacement.Y += monLabel.Height;
+
+            maComboBox.Location = unEmplacement;
+            desControles.Add(maComboBox);
+            unEmplacement.Y += maComboBox.Height + 10;
+
+            return unEmplacement;
+        }
+
+        private Point AddListBox(XmlNode unNoeud, Control.ControlCollection desControles, Point unEmplacement, string tag)
+        {
+            // Création d'un contrôle ListBox.
+            ListBox maListBox = new ListBox();
+
+            // Valeur de l'attribut "name" de la balise <question> en cours
+            if (unNoeud.Attributes["name"] != null)
+                maListBox.Name = unNoeud.Attributes["name"].Value;
+
+            maListBox.Tag = tag;
+            maListBox.Width = LARGEUR_CONTROLES;
+
+            // Création d'une collection ordonnée de noeuds <reponse>
+            XmlNodeList lesReponses;
+            lesReponses = unNoeud.SelectNodes("reponses/reponse");
+            foreach (XmlNode uneReponse in lesReponses)
+            {
+                if (uneReponse != null)
+                {
+                    // Ajouter chaque réponse à la ListBox
+                    string reponseText = uneReponse.InnerText;
+                    maListBox.Items.Add(reponseText);
+
+                    // Vérifier si cette réponse est sélectionnée par défaut
+                    XmlAttribute defaultAttribute = uneReponse.Attributes["default"];
+                    if (defaultAttribute != null && defaultAttribute.Value.ToLower() == "true")
+                    {
+                        // Trouver l'index de la réponse et la sélectionner
+                        int selectedIndex = maListBox.Items.IndexOf(reponseText);
+                        if (selectedIndex != -1)
+                        {
+                            maListBox.SetSelected(selectedIndex, true);
+                        }
+                    }
+                }
+            }
+
+            // Création d'un Label
+            Label monLabel = new Label();
+            monLabel.Name = maListBox.Name + "Label";
+            if (unNoeud.SelectSingleNode("text") != null)
+                monLabel.Text = unNoeud.SelectSingleNode("text").InnerText;
+
+            monLabel.Width = LARGEUR_CONTROLES;
+
+            // Ajout à la collection
+            monLabel.Location = unEmplacement;
+            desControles.Add(monLabel);
+            unEmplacement.Y += monLabel.Height;
+
+            maListBox.Location = unEmplacement;
+            desControles.Add(maListBox);
+            unEmplacement.Y += maListBox.Height + 10;
+
+            return unEmplacement;
+        }
+
 
 
         private Point AddTextBox(XmlNode unNoeud, Control.ControlCollection desControles, Point unEmplacement, string tag)

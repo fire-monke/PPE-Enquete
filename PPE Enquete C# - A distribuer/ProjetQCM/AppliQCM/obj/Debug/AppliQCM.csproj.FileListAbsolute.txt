@@ -8,3 +8,13 @@ E:\Copie disque dur Corine\Corine\Année 2023 - 2024 - SIO2\AP\AP Enquête\Proje
 E:\Copie disque dur Corine\Corine\Année 2023 - 2024 - SIO2\AP\AP Enquête\ProjetQCM\AppliQCM\obj\Debug\AppliQCM.csproj.CoreCompileInputs.cache
 E:\Copie disque dur Corine\Corine\Année 2023 - 2024 - SIO2\AP\AP Enquête\ProjetQCM\AppliQCM\obj\Debug\AppliQCM.exe
 E:\Copie disque dur Corine\Corine\Année 2023 - 2024 - SIO2\AP\AP Enquête\ProjetQCM\AppliQCM\obj\Debug\AppliQCM.pdb
+C:\Users\ahousseau\Desktop\AP Enquête C#\PPE Enquete C# - A distribuer\ProjetQCM\AppliQCM\bin\Debug\AppliQCM.exe.config
+C:\Users\ahousseau\Desktop\AP Enquête C#\PPE Enquete C# - A distribuer\ProjetQCM\AppliQCM\bin\Debug\AppliQCM.exe
+C:\Users\ahousseau\Desktop\AP Enquête C#\PPE Enquete C# - A distribuer\ProjetQCM\AppliQCM\bin\Debug\AppliQCM.pdb
+C:\Users\ahousseau\Desktop\AP Enquête C#\PPE Enquete C# - A distribuer\ProjetQCM\AppliQCM\obj\Debug\AppliQCM.csproj.AssemblyReference.cache
+C:\Users\ahousseau\Desktop\AP Enquête C#\PPE Enquete C# - A distribuer\ProjetQCM\AppliQCM\obj\Debug\AppliQCM.FrmAccueil.resources
+C:\Users\ahousseau\Desktop\AP Enquête C#\PPE Enquete C# - A distribuer\ProjetQCM\AppliQCM\obj\Debug\AppliQCM.Properties.Resources.resources
+C:\Users\ahousseau\Desktop\AP Enquête C#\PPE Enquete C# - A distribuer\ProjetQCM\AppliQCM\obj\Debug\AppliQCM.csproj.GenerateResource.cache
+C:\Users\ahousseau\Desktop\AP Enquête C#\PPE Enquete C# - A distribuer\ProjetQCM\AppliQCM\obj\Debug\AppliQCM.csproj.CoreCompileInputs.cache
+C:\Users\ahousseau\Desktop\AP Enquête C#\PPE Enquete C# - A distribuer\ProjetQCM\AppliQCM\obj\Debug\AppliQCM.exe
+C:\Users\ahousseau\Desktop\AP Enquête C#\PPE Enquete C# - A distribuer\ProjetQCM\AppliQCM\obj\Debug\AppliQCM.pdb
