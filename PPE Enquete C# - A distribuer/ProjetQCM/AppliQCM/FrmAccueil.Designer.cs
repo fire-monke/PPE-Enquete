@@ -74,21 +74,21 @@
             // mnuOuvrir
             // 
             this.mnuOuvrir.Name = "mnuOuvrir";
-            this.mnuOuvrir.Size = new System.Drawing.Size(180, 22);
+            this.mnuOuvrir.Size = new System.Drawing.Size(111, 22);
             this.mnuOuvrir.Text = "Ouvrir";
             this.mnuOuvrir.Click += new System.EventHandler(this.mnuOuvrir_Click);
             // 
             // mnuFermer
             // 
             this.mnuFermer.Name = "mnuFermer";
-            this.mnuFermer.Size = new System.Drawing.Size(180, 22);
+            this.mnuFermer.Size = new System.Drawing.Size(111, 22);
             this.mnuFermer.Text = "Fermer";
             this.mnuFermer.Click += new System.EventHandler(this.mnuFermer_Click);
             // 
             // mnuQuitter
             // 
             this.mnuQuitter.Name = "mnuQuitter";
-            this.mnuQuitter.Size = new System.Drawing.Size(180, 22);
+            this.mnuQuitter.Size = new System.Drawing.Size(111, 22);
             this.mnuQuitter.Text = "Quitter";
             this.mnuQuitter.Click += new System.EventHandler(this.mnuQuitter_Click);
             // 
@@ -107,18 +107,21 @@
             this.cascadeToolStripMenuItem.Name = "cascadeToolStripMenuItem";
             this.cascadeToolStripMenuItem.Size = new System.Drawing.Size(188, 22);
             this.cascadeToolStripMenuItem.Text = "Cascade";
+            this.cascadeToolStripMenuItem.Click += new System.EventHandler(this.cascadeToolStripMenuItem_Click);
             // 
             // mnuHorizontale
             // 
             this.mnuHorizontale.Name = "mnuHorizontale";
             this.mnuHorizontale.Size = new System.Drawing.Size(188, 22);
             this.mnuHorizontale.Text = "Mosaïque horizontale";
+            this.mnuHorizontale.Click += new System.EventHandler(this.mnuHorizontale_Click);
             // 
             // mnuVerticale
             // 
             this.mnuVerticale.Name = "mnuVerticale";
             this.mnuVerticale.Size = new System.Drawing.Size(188, 22);
             this.mnuVerticale.Text = "Mosaïque verticale";
+            this.mnuVerticale.Click += new System.EventHandler(this.mnuVerticale_Click);
             // 
             // mnuAide
             // 
@@ -131,8 +134,9 @@
             // mnuApropos
             // 
             this.mnuApropos.Name = "mnuApropos";
-            this.mnuApropos.Size = new System.Drawing.Size(131, 22);
+            this.mnuApropos.Size = new System.Drawing.Size(180, 22);
             this.mnuApropos.Text = "A Propos...";
+            this.mnuApropos.Click += new System.EventHandler(this.mnuApropos_Click);
             // 
             // FrmAccueil
             // 

@@ -59,5 +59,25 @@ namespace AppliQCM
         {
             this.Close();
         }
+
+        private void mnuHorizontale_Click(object sender, EventArgs e)
+        {
+            this.LayoutMdi(MdiLayout.TileHorizontal);
+        }
+
+        private void cascadeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.LayoutMdi(MdiLayout.Cascade);
+        }
+
+        private void mnuVerticale_Click(object sender, EventArgs e)
+        {
+            this.LayoutMdi(MdiLayout.TileVertical);
+        }
+
+        private void mnuApropos_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(this, "QCM Dynamique C#.", "À propos...", MessageBoxButtons.OK);
+        }
     }
 }
