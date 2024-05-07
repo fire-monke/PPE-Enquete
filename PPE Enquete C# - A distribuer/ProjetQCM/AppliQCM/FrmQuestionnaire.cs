@@ -83,6 +83,12 @@ namespace AppliQCM
             }
         }
 
+        public string GetCleXML()
+        {
+            return this.xr.SelectSingleNode("questionnaire").Attributes["cle"].Value;
+        }
+
+
         //**********
         //  METHODES
         //**********
@@ -147,13 +153,6 @@ namespace AppliQCM
                     }
                 }
             }
-
-            
-            Button btnValider = new Button();
-
-            btnValider.DialogResult = DialogResult.OK;
-
-            Controls.Add(btnValider);
 
             // On spécifie la largeur et la hauteur de la feuille créée dynamiquement.
             // En effet, sa dimension dépend du nombre de contrôles à placer, et par
@@ -255,6 +254,10 @@ namespace AppliQCM
 
             maListBox.Tag = tag;
             maListBox.Width = LARGEUR_CONTROLES;
+            
+            // Activer la selection multiple
+            maListBox.SelectionMode = SelectionMode.MultiExtended; // Ou SelectionMode.MultiSimple
+
 
             // Création d'une collection ordonnée de noeuds <reponse>
             XmlNodeList lesReponses;

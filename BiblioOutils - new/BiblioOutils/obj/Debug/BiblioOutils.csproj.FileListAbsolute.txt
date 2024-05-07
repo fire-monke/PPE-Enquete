@@ -1,0 +1,156 @@
+C:\Users\ahousseau\Desktop\Prog\BiblioOutils\BiblioOutils\bin\Debug\BiblioOutils.dll
+C:\Users\ahousseau\Desktop\Prog\BiblioOutils\BiblioOutils\bin\Debug\BiblioOutils.pdb
+C:\Users\ahousseau\Desktop\Prog\BiblioOutils\BiblioOutils\obj\Debug\BiblioOutils.csproj.AssemblyReference.cache
+C:\Users\ahousseau\Desktop\Prog\BiblioOutils\BiblioOutils\obj\Debug\BiblioOutils.csproj.CoreCompileInputs.cache
+C:\Users\ahousseau\Desktop\Prog\BiblioOutils\BiblioOutils\obj\Debug\BiblioOutils.dll
+C:\Users\ahousseau\Desktop\Prog\BiblioOutils\BiblioOutils\obj\Debug\BiblioOutils.pdb
+C:\Users\ahousseau\Desktop\Prog\BiblioOutils\BiblioOutils\bin\Debug\BiblioOutils.dll.config
+C:\Users\ahousseau\Desktop\Prog\BiblioOutils\BiblioOutils\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\ahousseau\Desktop\Prog\BiblioOutils\BiblioOutils\bin\Debug\Google.Protobuf.dll
+C:\Users\ahousseau\Desktop\Prog\BiblioOutils\BiblioOutils\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\ahousseau\Desktop\Prog\BiblioOutils\BiblioOutils\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\ahousseau\Desktop\Prog\BiblioOutils\BiblioOutils\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\ahousseau\Desktop\Prog\BiblioOutils\BiblioOutils\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\ahousseau\Desktop\Prog\BiblioOutils\BiblioOutils\bin\Debug\MySql.Data.dll
+C:\Users\ahousseau\Desktop\Prog\BiblioOutils\BiblioOutils\bin\Debug\System.Buffers.dll
+C:\Users\ahousseau\Desktop\Prog\BiblioOutils\BiblioOutils\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\ahousseau\Desktop\Prog\BiblioOutils\BiblioOutils\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ahousseau\Desktop\Prog\BiblioOutils\BiblioOutils\bin\Debug\System.IO.Pipelines.dll
+C:\Users\ahousseau\Desktop\Prog\BiblioOutils\BiblioOutils\bin\Debug\System.Memory.dll
+C:\Users\ahousseau\Desktop\Prog\BiblioOutils\BiblioOutils\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\ahousseau\Desktop\Prog\BiblioOutils\BiblioOutils\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ahousseau\Desktop\Prog\BiblioOutils\BiblioOutils\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\ahousseau\Desktop\Prog\BiblioOutils\BiblioOutils\bin\Debug\ZstdSharp.dll
+C:\Users\ahousseau\Desktop\Prog\BiblioOutils\BiblioOutils\bin\Debug\BouncyCastle.Crypto.xml
+C:\Users\ahousseau\Desktop\Prog\BiblioOutils\BiblioOutils\bin\Debug\Google.Protobuf.pdb
+C:\Users\ahousseau\Desktop\Prog\BiblioOutils\BiblioOutils\bin\Debug\Google.Protobuf.xml
+C:\Users\ahousseau\Desktop\Prog\BiblioOutils\BiblioOutils\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\ahousseau\Desktop\Prog\BiblioOutils\BiblioOutils\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\ahousseau\Desktop\Prog\BiblioOutils\BiblioOutils\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\ahousseau\Desktop\Prog\BiblioOutils\BiblioOutils\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\ahousseau\Desktop\Prog\BiblioOutils\BiblioOutils\bin\Debug\MySql.Data.xml
+C:\Users\ahousseau\Desktop\Prog\BiblioOutils\BiblioOutils\bin\Debug\System.Buffers.xml
+C:\Users\ahousseau\Desktop\Prog\BiblioOutils\BiblioOutils\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\ahousseau\Desktop\Prog\BiblioOutils\BiblioOutils\bin\Debug\System.IO.Pipelines.xml
+C:\Users\ahousseau\Desktop\Prog\BiblioOutils\BiblioOutils\bin\Debug\System.Memory.xml
+C:\Users\ahousseau\Desktop\Prog\BiblioOutils\BiblioOutils\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\ahousseau\Desktop\Prog\BiblioOutils\BiblioOutils\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\ahousseau\Desktop\Prog\BiblioOutils\BiblioOutils\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\ahousseau\Desktop\Prog\BiblioOutils\BiblioOutils\obj\Debug\BiblioOutils.csproj.CopyComplete
+E:\occasAutocsharp\BiblioOutils\BiblioOutils\bin\Debug\BiblioOutils.dll.config
+E:\occasAutocsharp\BiblioOutils\BiblioOutils\bin\Debug\BiblioOutils.dll
+E:\occasAutocsharp\BiblioOutils\BiblioOutils\bin\Debug\BiblioOutils.pdb
+E:\occasAutocsharp\BiblioOutils\BiblioOutils\bin\Debug\BouncyCastle.Crypto.dll
+E:\occasAutocsharp\BiblioOutils\BiblioOutils\bin\Debug\Google.Protobuf.dll
+E:\occasAutocsharp\BiblioOutils\BiblioOutils\bin\Debug\K4os.Compression.LZ4.dll
+E:\occasAutocsharp\BiblioOutils\BiblioOutils\bin\Debug\K4os.Compression.LZ4.Streams.dll
+E:\occasAutocsharp\BiblioOutils\BiblioOutils\bin\Debug\K4os.Hash.xxHash.dll
+E:\occasAutocsharp\BiblioOutils\BiblioOutils\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+E:\occasAutocsharp\BiblioOutils\BiblioOutils\bin\Debug\MySql.Data.dll
+E:\occasAutocsharp\BiblioOutils\BiblioOutils\bin\Debug\System.Buffers.dll
+E:\occasAutocsharp\BiblioOutils\BiblioOutils\bin\Debug\System.Configuration.ConfigurationManager.dll
+E:\occasAutocsharp\BiblioOutils\BiblioOutils\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+E:\occasAutocsharp\BiblioOutils\BiblioOutils\bin\Debug\System.IO.Pipelines.dll
+E:\occasAutocsharp\BiblioOutils\BiblioOutils\bin\Debug\System.Memory.dll
+E:\occasAutocsharp\BiblioOutils\BiblioOutils\bin\Debug\System.Numerics.Vectors.dll
+E:\occasAutocsharp\BiblioOutils\BiblioOutils\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\occasAutocsharp\BiblioOutils\BiblioOutils\bin\Debug\System.Threading.Tasks.Extensions.dll
+E:\occasAutocsharp\BiblioOutils\BiblioOutils\bin\Debug\ZstdSharp.dll
+E:\occasAutocsharp\BiblioOutils\BiblioOutils\bin\Debug\BouncyCastle.Crypto.xml
+E:\occasAutocsharp\BiblioOutils\BiblioOutils\bin\Debug\Google.Protobuf.pdb
+E:\occasAutocsharp\BiblioOutils\BiblioOutils\bin\Debug\Google.Protobuf.xml
+E:\occasAutocsharp\BiblioOutils\BiblioOutils\bin\Debug\K4os.Compression.LZ4.xml
+E:\occasAutocsharp\BiblioOutils\BiblioOutils\bin\Debug\K4os.Compression.LZ4.Streams.xml
+E:\occasAutocsharp\BiblioOutils\BiblioOutils\bin\Debug\K4os.Hash.xxHash.xml
+E:\occasAutocsharp\BiblioOutils\BiblioOutils\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+E:\occasAutocsharp\BiblioOutils\BiblioOutils\bin\Debug\MySql.Data.xml
+E:\occasAutocsharp\BiblioOutils\BiblioOutils\bin\Debug\System.Buffers.xml
+E:\occasAutocsharp\BiblioOutils\BiblioOutils\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+E:\occasAutocsharp\BiblioOutils\BiblioOutils\bin\Debug\System.IO.Pipelines.xml
+E:\occasAutocsharp\BiblioOutils\BiblioOutils\bin\Debug\System.Memory.xml
+E:\occasAutocsharp\BiblioOutils\BiblioOutils\bin\Debug\System.Numerics.Vectors.xml
+E:\occasAutocsharp\BiblioOutils\BiblioOutils\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\occasAutocsharp\BiblioOutils\BiblioOutils\bin\Debug\System.Threading.Tasks.Extensions.xml
+E:\occasAutocsharp\BiblioOutils\BiblioOutils\obj\Debug\BiblioOutils.csproj.AssemblyReference.cache
+E:\occasAutocsharp\BiblioOutils\BiblioOutils\obj\Debug\BiblioOutils.csproj.CoreCompileInputs.cache
+E:\occasAutocsharp\BiblioOutils\BiblioOutils\obj\Debug\BiblioOutils.csproj.CopyComplete
+E:\occasAutocsharp\BiblioOutils\BiblioOutils\obj\Debug\BiblioOutils.dll
+E:\occasAutocsharp\BiblioOutils\BiblioOutils\obj\Debug\BiblioOutils.pdb
+C:\Users\Anto\Desktop\BiblioOutils\BiblioOutils\bin\Debug\BiblioOutils.dll.config
+C:\Users\Anto\Desktop\BiblioOutils\BiblioOutils\bin\Debug\BiblioOutils.dll
+C:\Users\Anto\Desktop\BiblioOutils\BiblioOutils\bin\Debug\BiblioOutils.pdb
+C:\Users\Anto\Desktop\BiblioOutils\BiblioOutils\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Anto\Desktop\BiblioOutils\BiblioOutils\bin\Debug\Google.Protobuf.dll
+C:\Users\Anto\Desktop\BiblioOutils\BiblioOutils\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\Anto\Desktop\BiblioOutils\BiblioOutils\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\Anto\Desktop\BiblioOutils\BiblioOutils\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\Anto\Desktop\BiblioOutils\BiblioOutils\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Anto\Desktop\BiblioOutils\BiblioOutils\bin\Debug\MySql.Data.dll
+C:\Users\Anto\Desktop\BiblioOutils\BiblioOutils\bin\Debug\System.Buffers.dll
+C:\Users\Anto\Desktop\BiblioOutils\BiblioOutils\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\Anto\Desktop\BiblioOutils\BiblioOutils\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Anto\Desktop\BiblioOutils\BiblioOutils\bin\Debug\System.IO.Pipelines.dll
+C:\Users\Anto\Desktop\BiblioOutils\BiblioOutils\bin\Debug\System.Memory.dll
+C:\Users\Anto\Desktop\BiblioOutils\BiblioOutils\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Anto\Desktop\BiblioOutils\BiblioOutils\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Anto\Desktop\BiblioOutils\BiblioOutils\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Anto\Desktop\BiblioOutils\BiblioOutils\bin\Debug\ZstdSharp.dll
+C:\Users\Anto\Desktop\BiblioOutils\BiblioOutils\bin\Debug\BouncyCastle.Crypto.xml
+C:\Users\Anto\Desktop\BiblioOutils\BiblioOutils\bin\Debug\Google.Protobuf.pdb
+C:\Users\Anto\Desktop\BiblioOutils\BiblioOutils\bin\Debug\Google.Protobuf.xml
+C:\Users\Anto\Desktop\BiblioOutils\BiblioOutils\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\Anto\Desktop\BiblioOutils\BiblioOutils\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\Anto\Desktop\BiblioOutils\BiblioOutils\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\Anto\Desktop\BiblioOutils\BiblioOutils\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Anto\Desktop\BiblioOutils\BiblioOutils\bin\Debug\MySql.Data.xml
+C:\Users\Anto\Desktop\BiblioOutils\BiblioOutils\bin\Debug\System.Buffers.xml
+C:\Users\Anto\Desktop\BiblioOutils\BiblioOutils\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Anto\Desktop\BiblioOutils\BiblioOutils\bin\Debug\System.IO.Pipelines.xml
+C:\Users\Anto\Desktop\BiblioOutils\BiblioOutils\bin\Debug\System.Memory.xml
+C:\Users\Anto\Desktop\BiblioOutils\BiblioOutils\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Anto\Desktop\BiblioOutils\BiblioOutils\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Anto\Desktop\BiblioOutils\BiblioOutils\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Anto\Desktop\BiblioOutils\BiblioOutils\obj\Debug\BiblioOutils.csproj.AssemblyReference.cache
+C:\Users\Anto\Desktop\BiblioOutils\BiblioOutils\obj\Debug\BiblioOutils.csproj.CoreCompileInputs.cache
+C:\Users\Anto\Desktop\BiblioOutils\BiblioOutils\obj\Debug\BiblioOutils.csproj.CopyComplete
+C:\Users\Anto\Desktop\BiblioOutils\BiblioOutils\obj\Debug\BiblioOutils.dll
+C:\Users\Anto\Desktop\BiblioOutils\BiblioOutils\obj\Debug\BiblioOutils.pdb
+C:\Users\Anto\Desktop\BiblioOutils - new\BiblioOutils\bin\Debug\BiblioOutils.dll.config
+C:\Users\Anto\Desktop\BiblioOutils - new\BiblioOutils\bin\Debug\BiblioOutils.dll
+C:\Users\Anto\Desktop\BiblioOutils - new\BiblioOutils\bin\Debug\BiblioOutils.pdb
+C:\Users\Anto\Desktop\BiblioOutils - new\BiblioOutils\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Anto\Desktop\BiblioOutils - new\BiblioOutils\bin\Debug\Google.Protobuf.dll
+C:\Users\Anto\Desktop\BiblioOutils - new\BiblioOutils\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\Anto\Desktop\BiblioOutils - new\BiblioOutils\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\Anto\Desktop\BiblioOutils - new\BiblioOutils\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\Anto\Desktop\BiblioOutils - new\BiblioOutils\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Anto\Desktop\BiblioOutils - new\BiblioOutils\bin\Debug\MySql.Data.dll
+C:\Users\Anto\Desktop\BiblioOutils - new\BiblioOutils\bin\Debug\System.Buffers.dll
+C:\Users\Anto\Desktop\BiblioOutils - new\BiblioOutils\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\Anto\Desktop\BiblioOutils - new\BiblioOutils\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Anto\Desktop\BiblioOutils - new\BiblioOutils\bin\Debug\System.IO.Pipelines.dll
+C:\Users\Anto\Desktop\BiblioOutils - new\BiblioOutils\bin\Debug\System.Memory.dll
+C:\Users\Anto\Desktop\BiblioOutils - new\BiblioOutils\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Anto\Desktop\BiblioOutils - new\BiblioOutils\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Anto\Desktop\BiblioOutils - new\BiblioOutils\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Anto\Desktop\BiblioOutils - new\BiblioOutils\bin\Debug\ZstdSharp.dll
+C:\Users\Anto\Desktop\BiblioOutils - new\BiblioOutils\bin\Debug\BouncyCastle.Crypto.xml
+C:\Users\Anto\Desktop\BiblioOutils - new\BiblioOutils\bin\Debug\Google.Protobuf.pdb
+C:\Users\Anto\Desktop\BiblioOutils - new\BiblioOutils\bin\Debug\Google.Protobuf.xml
+C:\Users\Anto\Desktop\BiblioOutils - new\BiblioOutils\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\Anto\Desktop\BiblioOutils - new\BiblioOutils\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\Anto\Desktop\BiblioOutils - new\BiblioOutils\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\Anto\Desktop\BiblioOutils - new\BiblioOutils\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Anto\Desktop\BiblioOutils - new\BiblioOutils\bin\Debug\MySql.Data.xml
+C:\Users\Anto\Desktop\BiblioOutils - new\BiblioOutils\bin\Debug\System.Buffers.xml
+C:\Users\Anto\Desktop\BiblioOutils - new\BiblioOutils\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Anto\Desktop\BiblioOutils - new\BiblioOutils\bin\Debug\System.IO.Pipelines.xml
+C:\Users\Anto\Desktop\BiblioOutils - new\BiblioOutils\bin\Debug\System.Memory.xml
+C:\Users\Anto\Desktop\BiblioOutils - new\BiblioOutils\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Anto\Desktop\BiblioOutils - new\BiblioOutils\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Anto\Desktop\BiblioOutils - new\BiblioOutils\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Anto\Desktop\BiblioOutils - new\BiblioOutils\obj\Debug\BiblioOutils.csproj.AssemblyReference.cache
+C:\Users\Anto\Desktop\BiblioOutils - new\BiblioOutils\obj\Debug\BiblioOutils.csproj.CoreCompileInputs.cache
+C:\Users\Anto\Desktop\BiblioOutils - new\BiblioOutils\obj\Debug\BiblioOutils.csproj.CopyComplete
+C:\Users\Anto\Desktop\BiblioOutils - new\BiblioOutils\obj\Debug\BiblioOutils.dll
+C:\Users\Anto\Desktop\BiblioOutils - new\BiblioOutils\obj\Debug\BiblioOutils.pdb

@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using AppliQCM;
+using BiblioOutils;
+using System;
+using System.Reflection.Emit;
 using System.Windows.Forms;
+using System.Xml;
 
 namespace AppliQCM
 {
@@ -49,10 +46,45 @@ namespace AppliQCM
 
         private void mnuFermer_Click(object sender, EventArgs e)
         {
-            // On recupère la fenêtre fille active
+            // On récupère la fenêtre fille active
             Form fenFille = this.ActiveMdiChild;
             if (fenFille != null)
+            {
+                string content = string.Empty;
+
+                // Parcourir les contrôles de la fenêtre fille
+                foreach (Control control in fenFille.Controls)
+                {
+                    // Si le contrôle est une ListBox, ajouter son libellé et les éléments sélectionnés
+                    if (control is ListBox)
+                    {
+                        ListBox listBox = control as ListBox;
+                        content += listBox.Name + ":" + "\n";
+                        foreach (object selectedItem in listBox.SelectedItems)
+                        {
+                            content += "- " + selectedItem.ToString() + "\n";
+                        }
+                    }
+                    // Si le contrôle est une TextBox, ajouter son libellé et son texte
+                    else if (control is TextBox)
+                    {
+                        TextBox textBox = control as TextBox;
+                        content += textBox.Name + ": " + textBox.Text + "\n";
+                    }
+                    // Si le contrôle est une ComboBox, ajouter son libellé et l'élément sélectionné
+                    else if (control is ComboBox)
+                    {
+                        ComboBox comboBox = control as ComboBox;
+                        content += comboBox.Name + ": " + comboBox.SelectedItem.ToString() + "\n";
+                    }
+                }
+
+                // Afficher le contenu
+                MessageBox.Show(content, fenFille.Text, MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                // Fermer la fenêtre fille
                 fenFille.Close();
+            }
         }
 
         private void mnuQuitter_Click(object sender, EventArgs e)
@@ -78,6 +110,62 @@ namespace AppliQCM
         private void mnuApropos_Click(object sender, EventArgs e)
         {
             MessageBox.Show(this, "QCM Dynamique C#.", "À propos...", MessageBoxButtons.OK);
+        }
+
+        private void validerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                // On récupère la fenêtre fille active
+                Form fenFille = this.ActiveMdiChild;
+                // Vérifier si la fenêtre active est une instance de FrmQuestionnaire
+                if (fenFille != null && fenFille is FrmQuestionnaire fenQuestionnaire)
+                {
+                    string cleQuestionnaire = fenQuestionnaire.GetCleXML();
+
+                    ConnectionADO cnx = new ConnectionADO("localhost", "bdEnquete", "root", "");
+
+                    // Parcourir les contrôles de la fenêtre fille
+                    foreach (Control control in fenFille.Controls)
+                    {
+                        string reponse = string.Empty;
+                        // Si le contrôle est une ListBox, ajouter son libellé et les éléments sélectionnés
+                        if (control is ListBox)
+                        {
+                            ListBox listBox = control as ListBox;
+                            foreach (string selectedItem in listBox.SelectedItems)
+                            {
+                                reponse = listBox.Name + ":" + selectedItem;
+                                cnx.RequeteInsertDeleteUpdate($"CALL AjouterReponse('{cleQuestionnaire}', '{reponse}')");
+                            }
+                        }
+                        // Si le contrôle est une TextBox, ajouter son libellé et son texte
+                        else if (control is TextBox)
+                        {
+                            TextBox textBox = control as TextBox;
+                            reponse = textBox.Name + ": " + textBox.Text;
+                            cnx.RequeteInsertDeleteUpdate($"CALL AjouterReponse('{cleQuestionnaire}', '{reponse}')");
+                        }
+                        // Si le contrôle est une ComboBox, ajouter son libellé et l'élément sélectionné
+                        else if (control is ComboBox)
+                        {
+                            ComboBox comboBox = control as ComboBox;
+                            reponse = comboBox.Name + ": " + comboBox.SelectedItem.ToString();
+                            cnx.RequeteInsertDeleteUpdate($"CALL AjouterReponse('{cleQuestionnaire}', '{reponse}')");
+                        }
+                    }
+                    MessageBox.Show("Ajouts terminés.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    // Fermer la fenêtre fille
+                    fenFille.Close();
+                }
+                else
+                {
+                    MessageBox.Show("Aucune fenêtre active ou la fenêtre active n'est pas un questionnaire.");
+                }
+            }catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
     }
 }

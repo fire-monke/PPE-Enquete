@@ -40,6 +40,7 @@
             this.mnuVerticale = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuAide = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuApropos = new System.Windows.Forms.ToolStripMenuItem();
+            this.validerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -66,6 +67,7 @@
             this.mnuFichier.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.mnuOuvrir,
             this.mnuFermer,
+            this.validerToolStripMenuItem,
             this.mnuQuitter});
             this.mnuFichier.Name = "mnuFichier";
             this.mnuFichier.Size = new System.Drawing.Size(54, 20);
@@ -74,21 +76,21 @@
             // mnuOuvrir
             // 
             this.mnuOuvrir.Name = "mnuOuvrir";
-            this.mnuOuvrir.Size = new System.Drawing.Size(111, 22);
+            this.mnuOuvrir.Size = new System.Drawing.Size(180, 22);
             this.mnuOuvrir.Text = "Ouvrir";
             this.mnuOuvrir.Click += new System.EventHandler(this.mnuOuvrir_Click);
             // 
             // mnuFermer
             // 
             this.mnuFermer.Name = "mnuFermer";
-            this.mnuFermer.Size = new System.Drawing.Size(111, 22);
+            this.mnuFermer.Size = new System.Drawing.Size(180, 22);
             this.mnuFermer.Text = "Fermer";
             this.mnuFermer.Click += new System.EventHandler(this.mnuFermer_Click);
             // 
             // mnuQuitter
             // 
             this.mnuQuitter.Name = "mnuQuitter";
-            this.mnuQuitter.Size = new System.Drawing.Size(111, 22);
+            this.mnuQuitter.Size = new System.Drawing.Size(180, 22);
             this.mnuQuitter.Text = "Quitter";
             this.mnuQuitter.Click += new System.EventHandler(this.mnuQuitter_Click);
             // 
@@ -134,9 +136,16 @@
             // mnuApropos
             // 
             this.mnuApropos.Name = "mnuApropos";
-            this.mnuApropos.Size = new System.Drawing.Size(180, 22);
+            this.mnuApropos.Size = new System.Drawing.Size(131, 22);
             this.mnuApropos.Text = "A Propos...";
             this.mnuApropos.Click += new System.EventHandler(this.mnuApropos_Click);
+            // 
+            // validerToolStripMenuItem
+            // 
+            this.validerToolStripMenuItem.Name = "validerToolStripMenuItem";
+            this.validerToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.validerToolStripMenuItem.Text = "Valider";
+            this.validerToolStripMenuItem.Click += new System.EventHandler(this.validerToolStripMenuItem_Click);
             // 
             // FrmAccueil
             // 
@@ -170,6 +179,7 @@
         private System.Windows.Forms.ToolStripMenuItem mnuVerticale;
         private System.Windows.Forms.ToolStripMenuItem mnuAide;
         private System.Windows.Forms.ToolStripMenuItem mnuApropos;
+        private System.Windows.Forms.ToolStripMenuItem validerToolStripMenuItem;
     }
 }
 
