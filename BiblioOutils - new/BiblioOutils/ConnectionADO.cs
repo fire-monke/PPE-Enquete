@@ -40,56 +40,32 @@ namespace BiblioOutils
 
         public MySqlDataReader RequeteSelect(string req)
         {
-            try
-            {
                 MySqlCommand cmd = new MySqlCommand(req, Cnx);
                 MySqlDataReader res = cmd.ExecuteReader();
                 return res;
-            }
-            catch (Exception ex)
-            {
-                // Handle SELECT query execution error 
-                throw new Exception("Error executing SELECT query.", ex);
-            }
         }
 
         public void RequeteInsertDeleteUpdate(string req)
         {
             SeConnecter();
-            try
-            {
+            
                 MySqlCommand cmd = new MySqlCommand(req, Cnx);
                 cmd.ExecuteNonQuery(); // Execute INSERT, UPDATE, or DELETE query
-            }
-            catch (Exception ex)
-            {
-                // Handle INSERT, UPDATE, or DELETE query execution error 
-                throw new Exception("Error executing INSERT, UPDATE, or DELETE query.", ex);
-            }
-            finally
-            {
+            
                 SeDeconnecter();
-            }
+            
         }
 
         public int reqGroupe(string req)
         {
             SeConnecter();
-            try
-            {
+            
                 MySqlCommand cmd = new MySqlCommand(req, Cnx);
                 int res = Convert.ToInt32(cmd.ExecuteScalar());
-                return res;
-            }
-            catch (Exception ex)
-            {
-                // Handle query execution error
-                throw new Exception("Error executing query.", ex);
-            }
-            finally
-            {
-                SeDeconnecter();
-            }
+            SeDeconnecter();
+            return res;
+            
+            
         }
     }
 }

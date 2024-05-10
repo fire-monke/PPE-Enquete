@@ -24,8 +24,8 @@ CREATE TABLE Reponses(
     FOREIGN KEY (cle_questionnaire) REFERENCES Questionnaire(cle)
 );
 
-DELIMITER //
 DROP PROCEDURE IF EXISTS AjouterReponse;
+DELIMITER //
 CREATE PROCEDURE AjouterReponse(IN p_cle_questionnaire VARCHAR(12), IN p_reponse VARCHAR(250))
 BEGIN
     DECLARE v_rang INT;
@@ -33,11 +33,11 @@ BEGIN
     -- Trouver le prochain rang pour ce questionnaire
     SELECT COALESCE(MAX(rang), 0) + 1 INTO v_rang
     FROM Reponses
-    WHERE cle_questionnaire = p_cle_questionnaire;
+    WHERE cle_questionnaire = p_cle_questionnaire and date_creation = NOW();
 
     -- Insérer la réponse avec le rang calculé
-    INSERT INTO Reponses (p_cle_questionnaire, rang, date_creation, p_reponse)
-    VALUES (p_cle_questionnaire, v_rang, NOW(), reponse);
+    INSERT INTO Reponses (cle_questionnaire, rang, date_creation, reponse)
+    VALUES (p_cle_questionnaire, v_rang, NOW(), p_reponse);
 END//
 
 DELIMITER ;
