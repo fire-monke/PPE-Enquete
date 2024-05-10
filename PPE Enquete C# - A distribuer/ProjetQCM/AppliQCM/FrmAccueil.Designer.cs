@@ -33,6 +33,7 @@
             this.mnuFichier = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuOuvrir = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuFermer = new System.Windows.Forms.ToolStripMenuItem();
+            this.validerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuQuitter = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuFenetre = new System.Windows.Forms.ToolStripMenuItem();
             this.cascadeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -40,7 +41,8 @@
             this.mnuVerticale = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuAide = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuApropos = new System.Windows.Forms.ToolStripMenuItem();
-            this.validerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -67,7 +69,9 @@
             this.mnuFichier.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.mnuOuvrir,
             this.mnuFermer,
+            this.toolStripSeparator2,
             this.validerToolStripMenuItem,
+            this.toolStripSeparator1,
             this.mnuQuitter});
             this.mnuFichier.Name = "mnuFichier";
             this.mnuFichier.Size = new System.Drawing.Size(54, 20);
@@ -86,6 +90,13 @@
             this.mnuFermer.Size = new System.Drawing.Size(180, 22);
             this.mnuFermer.Text = "Fermer";
             this.mnuFermer.Click += new System.EventHandler(this.mnuFermer_Click);
+            // 
+            // validerToolStripMenuItem
+            // 
+            this.validerToolStripMenuItem.Name = "validerToolStripMenuItem";
+            this.validerToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.validerToolStripMenuItem.Text = "Valider";
+            this.validerToolStripMenuItem.Click += new System.EventHandler(this.validerToolStripMenuItem_Click);
             // 
             // mnuQuitter
             // 
@@ -140,12 +151,15 @@
             this.mnuApropos.Text = "A Propos...";
             this.mnuApropos.Click += new System.EventHandler(this.mnuApropos_Click);
             // 
-            // validerToolStripMenuItem
+            // toolStripSeparator1
             // 
-            this.validerToolStripMenuItem.Name = "validerToolStripMenuItem";
-            this.validerToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.validerToolStripMenuItem.Text = "Valider";
-            this.validerToolStripMenuItem.Click += new System.EventHandler(this.validerToolStripMenuItem_Click);
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(177, 6);
+            // 
+            // toolStripSeparator2
+            // 
+            this.toolStripSeparator2.Name = "toolStripSeparator2";
+            this.toolStripSeparator2.Size = new System.Drawing.Size(177, 6);
             // 
             // FrmAccueil
             // 
@@ -180,6 +194,8 @@
         private System.Windows.Forms.ToolStripMenuItem mnuAide;
         private System.Windows.Forms.ToolStripMenuItem mnuApropos;
         private System.Windows.Forms.ToolStripMenuItem validerToolStripMenuItem;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
     }
 }
 

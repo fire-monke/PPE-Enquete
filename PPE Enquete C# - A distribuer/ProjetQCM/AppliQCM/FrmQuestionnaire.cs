@@ -1,4 +1,5 @@
-﻿using System.Drawing;
+﻿using System;
+using System.Drawing;
 using System.Windows.Forms;
 using System.Xml;
 
@@ -41,6 +42,8 @@ namespace AppliQCM
             InitializeComponent();
             // Associer cette feuille fille à la fenêtre mère
             this.MdiParent = fenMere;
+
+            this.ControlBox = false;
 
             // Remplir le questionnaire à partir du document XML
             CreerAPartirXML(docXML);
@@ -198,6 +201,9 @@ namespace AppliQCM
             if (unNoeud.SelectSingleNode("maxCharacters") != null)
                 maComboBox.MaxLength = int.Parse(unNoeud.SelectSingleNode("maxCharacters").InnerText);
 
+            // Désactiver la possibilité d'écrire dans la ComboBox
+            maComboBox.DropDownStyle = ComboBoxStyle.DropDownList;
+
             // Création d'une collection ordonnée de noeuds <reponse>
             XmlNodeList lesReponses;
             lesReponses = unNoeud.SelectNodes("reponses/reponse");
@@ -256,7 +262,7 @@ namespace AppliQCM
             maListBox.Width = LARGEUR_CONTROLES;
             
             // Activer la selection multiple
-            maListBox.SelectionMode = SelectionMode.MultiExtended; // Ou SelectionMode.MultiSimple
+            maListBox.SelectionMode = SelectionMode.MultiSimple;
 
 
             // Création d'une collection ordonnée de noeuds <reponse>
@@ -283,6 +289,7 @@ namespace AppliQCM
                     }
                 }
             }
+
 
             // Création d'un Label
             Label monLabel = new Label();
